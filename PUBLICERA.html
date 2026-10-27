@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Publicera klimatmodellen – Jägersro</title>
+<style>
+:root{color-scheme:light;--green:#176b52;--ink:#173d30;--muted:#52665d;--line:#dce8df}
+*{box-sizing:border-box}body{margin:0;background:#f4f7f3;color:var(--ink);font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1030px;margin:auto;padding:55px 28px 70px}header{padding:25px 0 28px;border-bottom:2px solid var(--green)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
+h1{font-size:43px;line-height:1.12;letter-spacing:-.03em;margin:18px 0}h2{font-size:24px;margin:0 0 12px}h3{font-size:19px}
+p{margin:8px 0 15px}.lead{font-size:21px;color:var(--muted);max-width:800px}.tag{display:inline-block;background:#e2efe5;padding:5px 11px;border-radius:5px;font-size:14px;margin-right:6px}
+section{background:white;border:1px solid var(--line);border-radius:13px;padding:25px 30px;margin-top:20px;break-inside:avoid}
+.step{display:flex;gap:18px}.num{background:var(--green);color:white;border-radius:50%;font-weight:700;flex:0 0 37px;height:37px;text-align:center;line-height:37px}
+.detail{min-width:0}a{color:#176b52;text-underline-offset:3px}code{font:15px/1.5 ui-monospace,Consolas,monospace;background:#eef3ee;border-radius:4px;padding:3px 6px;overflow-wrap:anywhere}
+.callout{border-left:4px solid #b88835;padding:12px 17px;background:#fbf7ec;color:#5d4e2b;margin-top:14px}table{width:100%;border-collapse:collapse;margin-top:18px;font-size:16px}td,th{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left}th{background:#eef3ee}
+.small{font-size:14px;color:var(--muted)}footer{padding-top:30px;font-size:14px;color:var(--muted)}
+@media(max-width:650px){main{padding:25px 16px}h1{font-size:33px}section{padding:22px 18px}.step{gap:12px}.lead{font-size:19px}}
+@media print{body{background:white}main{max-width:none;padding:0}section{border-radius:0;margin-top:12px;padding:18px}a{color:inherit}header{padding-top:0}h1{font-size:32px}}
+</style></head><body><main>
+<header><div class="eyebrow">Jägersro · Instruktion utan programmering · 27 oktober 2026</div>
+<h1>Publicera klimatmodellen<br>med GitHub och Streamlit</h1>
+<p class="lead">Projektpaketet innehåller appen, beräkningsmotorn och modellunderlaget. Följ stegen nedan för att få en delbar webbadress.</p>
+<span class="tag">Stella behövs inte</span><span class="tag">Ingen API-nyckel</span><span class="tag">Python 3.12</span></header>
+
+<section><div class="step"><div class="num">1</div><div class="detail"><h2>Packa upp projektpaketet</h2>
+<p>Ladda ned <strong>Jagersro_Streamlit_v1.zip</strong>. I Windows: högerklicka på filen och välj <strong>Extrahera alla</strong>. Öppna den uppackade mappen <code>klimatmodell_streamlit</code>.</p>
+<p>Här ska du bland annat se <code>streamlit_app.py</code>, <code>requirements.txt</code> och mappen <code>model</code>.</p></div></div></section>
+
+<section><div class="step"><div class="num">2</div><div class="detail"><h2>Lägg projektets innehåll i GitHub</h2>
+<p>Öppna <a href="https://github.com/new" target="_blank" rel="noopener">github.com/new</a> och logga in. Skapa exempelvis ett repository med namnet <code>jagersro-klimatmodell</code>.</p>
+<p>Välj <strong>Add file → Upload files</strong>, eller länken för att ladda upp befintliga filer i ett tomt repository. Dra in <strong>alla filer och undermappar från projektmappens insida</strong>. Välj sedan <strong>Commit changes</strong>.</p>
+<div class="callout"><strong>Viktigt:</strong> Ladda upp den uppackade mappens innehåll. GitHub och Streamlit behöver kunna se Python-filerna och mappen <code>model</code>; det räcker inte att lägga dit zip-filen.</div>
+<p class="small">Låt även mapparna .streamlit och .github följa med. Den förra styr utseendet och den senare innehåller automatiska kontroller.</p></div></div></section>
+
+<section><div class="step"><div class="num">3</div><div class="detail"><h2>Skapa appen i Streamlit</h2>
+<p>Öppna <a href="https://share.streamlit.io/" target="_blank" rel="noopener">share.streamlit.io</a> och logga in med ditt GitHub-konto. Välj <strong>Create app</strong> och alternativet att använda en befintlig app om den frågan visas.</p>
+<table><thead><tr><th>Fält</th><th>Vad du ska välja</th></tr></thead><tbody>
+<tr><td>Repository</td><td>Ditt repository, exempelvis <code>dittnamn/jagersro-klimatmodell</code></td></tr>
+<tr><td>Branch</td><td><code>main</code></td></tr>
+<tr><td>Main file path</td><td><code>streamlit_app.py</code></td></tr>
+<tr><td>Advanced settings → Python</td><td><strong>3.12</strong></td></tr>
+<tr><td>Secrets</td><td>Lämnas tomt</td></tr></tbody></table>
+<p>Välj en ledig appadress om du vill, och klicka på <strong>Deploy</strong>.</p>
+<p class="small">Om filerna ligger i en undermapp i GitHub behöver startfilens sökväg också innehålla undermappen. Anvisningen ovan förutsätter att du laddat upp projektets innehåll direkt i repositoryts rot.</p></div></div></section>
+
+<section><div class="step"><div class="num">4</div><div class="detail"><h2>Kontrollera starten och dela länken</h2>
+<p>När appen öppnas ska grundscenariot heta <strong>Sparade reglage i Stella</strong>. Med slutår 2050 ska <strong>Saldo enligt Stella</strong> vara ungefär <strong>307 192 ton CO₂e</strong>.</p>
+<p>Öppna <strong>Modell &amp; kontroll</strong> och välj att köra kontrollen på nytt. Den ska ge <strong>681 av 681 godkända serier</strong>. Prova också att öppna varje flik och ändra ett antagande.</p>
+<p>Dela appens adress på <code>streamlit.app</code>. Kontrollera delningsinställningarna så att den avsedda målgruppen kan öppna länken.</p>
+<p class="small">Den faktiska driftsättningen görs från ditt konto. Paketet har inte redan publicerats.</p></div></div></section>
+
+<section><h2>Så arbetar du med scenarier</h2>
+<p><strong>Ändra antaganden:</strong> skriv i kolumnen Värde och välj Beräkna med dessa värden. Fler parametrar finns under Alla parametrar. Kurvor kan ändras under Tidskurvor.</p>
+<p><strong>Andelar:</strong> använd normalt 0–1. Skriv till exempel 0,25 för 25 procent. Av/På är 0 eller 1. De fem stomandelarna för respektive byggnadstyp ska tillsammans bli 1.</p>
+<p><strong>Spara arbetet:</strong> välj Spara scenario (JSON). Filen behåller antaganden och ändrade kurvor och kan läsas in igen. Exportera årsresultat eller utvalda tidsserier som CSV för svensk Excel.</p>
+<p><strong>Årsväljaren:</strong> ändrar vilket år som sammanfattas. Beräkningen kör alltid hela perioden 2024–2050.</p></section>
+
+<section><h2>Vad har verifierats?</h2>
+<p>Beräkningsmotorn har jämförts mot alla <strong>681 sparade variabler och tidsserier</strong>, med <strong>2 344 711 lagrade referensvärden</strong> i Stella-filen. Alla jämförelser klarar toleransen. Elva automatiska tester har godkänts.</p>
+<p><strong>Streamlit-starten återstår att verifiera:</strong> Streamlit kunde inte installeras i leveransmiljön. Ett starttest ingår och körs i GitHub Actions när projektet laddas upp. Kontrollera därför att GitHubs Actions-flik visar en godkänd kontroll och att appen visas som avsett.</p>
+<p>Originalets klimatantaganden är bevarade. Dokumentationen beskriver identifierade problem i originalets formler och summeringar; de har inte rättats i denna konvertering.</p>
+<p class="small">Fördjupning finns i README.md och docs/METOD_OCH_KONTROLL.md i projektpaketet.</p></section>
+
+<section><h2>Om appen inte startar</h2>
+<p><strong>ModuleNotFoundError:</strong> kontrollera att alla Python-filer och requirements.txt finns med. <strong>FileNotFoundError:</strong> kontrollera mappen model och dess filer. <strong>Fel vid installation:</strong> kontrollera att Python 3.12 valts.</p>
+<p>Öppna loggen i Streamlit via <strong>Manage app</strong> och spara den första feltexten om felet kvarstår. I GitHub visar fliken <strong>Actions</strong> resultatet av de automatiska testerna.</p>
+<p><a href="https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy" target="_blank" rel="noopener">Streamlits officiella publiceringsanvisning</a></p></section>
+<footer>Jägersro · Klimatmodell CO2e-budget, Avatar-MFF · Streamlit-version 1.0</footer>
+</main></body></html>

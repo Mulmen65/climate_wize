@@ -1,0 +1,31 @@
+{
+  "compared_series": 681,
+  "passed_series": 681,
+  "stored_reference_values": 2344711,
+  "max_scale_normalized_error": 7.667112337905748e-14,
+  "rtol": 1e-09,
+  "atol": 1e-07,
+  "scope": "Oförändrade sparade reglage, 2024–2050, Euler, DT=1/365 år",
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "model_sha256": "4d30512e1048c8e6d5b16681fbd1410b1fc843af8c5096e4f4633534c4699c59",
+  "unresolved_variables": {},
+  "unique_variable_definitions": 808,
+  "alias_connections": 127,
+  "independent_variables": 681,
+  "stocks": 85,
+  "editable_parameters": 289,
+  "saved_controls": 51,
+  "timesteps": 9491,
+  "seconds": 1.65,
+  "key_results_2050": {
+    "TOTAL.MODUL_1": 330106.70908369415,
+    "TOTAL.MODUL_2": 98948.04450821875,
+    "TOTAL.MODUL_3": 170542.65517374265,
+    "TOTAL.Klimatbudget_(CO2e)": 14023.531010547356,
+    "TOTAL.TOTAL": 244488.5674076229,
+    "TOTAL.Ack._offentliga_klimatutsläpp_(ton_CO2)": 62702.96444103483,
+    "TOTAL.TOTAL_inkl._offentliga_utsläpp_(ton_CO2e)": 307191.53184865776,
+    "TOTAL.Summa_klimatemissioner_i_stadsdel_exkl._personlig_klimatpool_(ton_CO2e)": 662300.3732066904
+  }
+}

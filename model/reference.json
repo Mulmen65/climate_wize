@@ -1,0 +1,3421 @@
+{
+  "run": {
+    "name": "Run 1",
+    "starttime": 2024.0,
+    "stoptime": 2050.0,
+    "dt": 0.0027397260273972603,
+    "saveint": 0.0027397260273972603,
+    "method": 0,
+    "modified": "2026-Oct-27 08:08:21"
+  },
+  "source_file": "Klimatmodell CO2e-budget, Avatar-MFF.isdb",
+  "source_sha256": "778b80471cf9e3eaf537f476fc1bb29a53e017c2588aaf1ffdba4b1b4a346b97",
+  "model_sha256": "4d30512e1048c8e6d5b16681fbd1410b1fc843af8c5096e4f4633534c4699c59",
+  "series": [
+    {
+      "key": ":.Mobilitet",
+      "array": "v0000",
+      "length": 9491
+    },
+    {
+      "key": ":.Mat",
+      "array": "v0001",
+      "length": 9491
+    },
+    {
+      "key": ":.Konsumtion",
+      "array": "v0002",
+      "length": 9491
+    },
+    {
+      "key": ":.Hushållsel",
+      "array": "v0003",
+      "length": 9491
+    },
+    {
+      "key": ":.Byggnader",
+      "array": "v0004",
+      "length": 9491
+    },
+    {
+      "key": ":.Infrastruktur",
+      "array": "v0005",
+      "length": 9491
+    },
+    {
+      "key": ":.P-Platser",
+      "array": "v0006",
+      "length": 1
+    },
+    {
+      "key": ":.Energi",
+      "array": "v0007",
+      "length": 9491
+    },
+    {
+      "key": ":.Träd",
+      "array": "v0008",
+      "length": 9491
+    },
+    {
+      "key": ":.Inbyggt_virke",
+      "array": "v0009",
+      "length": 9491
+    },
+    {
+      "key": ":.Biokol",
+      "array": "v0010",
+      "length": 9491
+    },
+    {
+      "key": ":.Solel",
+      "array": "v0011",
+      "length": 9491
+    },
+    {
+      "key": ":.CO2-budget",
+      "array": "v0012",
+      "length": 9491
+    },
+    {
+      "key": ":.Installationer",
+      "array": "v0013",
+      "length": 9491
+    },
+    {
+      "key": ":.Klimatbalans",
+      "array": "v0014",
+      "length": 9491
+    },
+    {
+      "key": ":.Summa",
+      "array": "v0015",
+      "length": 9491
+    },
+    {
+      "key": ":.Offentligt",
+      "array": "v0016",
+      "length": 9491
+    },
+    {
+      "key": ":.Modul_I",
+      "array": "v0017",
+      "length": 9491
+    },
+    {
+      "key": ":.Modul_II",
+      "array": "v0018",
+      "length": 9491
+    },
+    {
+      "key": ":.Modul_III",
+      "array": "v0019",
+      "length": 9491
+    },
+    {
+      "key": ":.Modul_IV",
+      "array": "v0020",
+      "length": 9491
+    },
+    {
+      "key": ":.Resultat",
+      "array": "v0021",
+      "length": 9491
+    },
+    {
+      "key": ":.Utsläpp_per_invånare_i_stadsdel_(ton_CO2e/år,_pers)",
+      "array": "v0022",
+      "length": 9491
+    },
+    {
+      "key": ":.Tillåten_CO2e_utsläpp_(ton_CO2e/år)",
+      "array": "v0023",
+      "length": 9491
+    },
+    {
+      "key": ":.Tillåten_ack_CO2e_utsläpp_(ton_CO2e)",
+      "array": "v0024",
+      "length": 9491
+    },
+    {
+      "key": ":.Ack._CO2e_utsläpp_(ton_CO2e/år)",
+      "array": "v0025",
+      "length": 9491
+    },
+    {
+      "key": ":.CO2e_utsläpp_i_stadsdel_(ton_CO2e/år)",
+      "array": "v0026",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Nyproduktion_Flerbostadshus_(m2_BTA)",
+      "array": "v0027",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Ackumulerad_nyproduktion_Flerbostadshus_(m2_BTA)",
+      "array": "v0028",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Nyproducerade_flerbostadshus_(m2_BTA/år)",
+      "array": "v0029",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Ackmulerad_CO2e-emissioner_Flerbostadshus_(ton_CO2e)",
+      "array": "v0030",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Flöde_2",
+      "array": "v0031",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_(2022,_medelvärde)_A1-A5_Flerbostadshus_(ton_CO2e/m2_BTA)",
+      "array": "v0032",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Ackmulerad_CO2e-emissioner_(2022,_klimatförbättrad)_Flerbostadshus_(ton_CO2e)",
+      "array": "v0033",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Flöde_3",
+      "array": "v0034",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_(2022,_klimatförbättrad)_A1-A5_Flerbostadshus_(ton_CO2e/m2_Atemp)",
+      "array": "v0035",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.CO2e_emissions_besparingar_Flerbostadshus_(ton_CO2e)",
+      "array": "v0036",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Andel_klimatförbättrade_av_fastighetsbeståndet_Flerbostadshus_(0-1)",
+      "array": "v0037",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Ackumulerade_CO2e_emissioner_Flerbostadshus_(ton_CO2e)",
+      "array": "v0038",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Årlig_förbättring_av_klimatavtrycket_för_byggander_(%)",
+      "array": "v0039",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_betonghus_Flerbostadshus",
+      "array": "v0040",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_klimatförbättrad_betonghus_Flerbostadshus",
+      "array": "v0041",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_stålhus_Flerbostadshus",
+      "array": "v0042",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_klimatförbättrad_stålhus_Flerbostadshus",
+      "array": "v0043",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_trähus_Flerbostadshus",
+      "array": "v0044",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Andel_betonghus_Flerbostadshus",
+      "array": "v0045",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Andel_klimatförbättrad_betonghus_Flerbostadshus",
+      "array": "v0046",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Andel_stålhus_Flerbostadshus",
+      "array": "v0047",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Andel_klimatförbättrad_stålhus_Flerbostadshus",
+      "array": "v0048",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Andel_trähus_Flerbostadshus",
+      "array": "v0049",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_Flerbostadshus_Betonghus_(ton_CO2e/m2_BTA)",
+      "array": "v0050",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_Flerbostadshus_Trähus_(ton_CO2e/m2_BTA)",
+      "array": "v0051",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_Klimatförbättrad_Flerbostadshus_Stålhus_(ton_CO2e/m2_BTA)",
+      "array": "v0052",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_Flerbostadshus_Stålhus_(ton_CO2e/m2_BTA)",
+      "array": "v0053",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_Flerbostadshus_Klimatförbättrad_Betonghus_(ton_CO2e/m2_BTA)",
+      "array": "v0054",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Utsläpp_Flerbostadshus_(ton_CO2e)",
+      "array": "v0055",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatbelastning_medelvärde_flerbostadshus_(ton_CO2e/m2_BTA)",
+      "array": "v0056",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Ackumulerade_klimatbelastning_installationer_Flerbostadshus_(ton_CO2e)",
+      "array": "v0057",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatbelastning_installationer_Flerbostadshus_(ton_CO2e/år)",
+      "array": "v0058",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatbelastning_installationer_Flerbostadshus_(ton_CO2e/m2_BTA)",
+      "array": "v0059",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Av/På_Klimatbelastning_Installationer",
+      "array": "v0060",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Av/På_Klimatbelastning_av_garage",
+      "array": "v0061",
+      "length": 1
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_betonghus_Flerbostadshus_(ton_CO2e)",
+      "array": "v0062",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_klimatfärbättradbetonghus_Flerbostadshus_(ton_CO2e)",
+      "array": "v0063",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_stålhus_Flerbostadshus_(ton_CO2e)",
+      "array": "v0064",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_klimatförbättrad_betonghus_Flerbostadshus_(ton_CO2e)",
+      "array": "v0065",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Klimatpåverkan_trähus_Flerbostadshus_(ton_CO2e)",
+      "array": "v0066",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Ackumulerade_klimatutsläpp_Flerbostadshus_(ton_CO2e)",
+      "array": "v0067",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Medelvärde_på_klimatbelastning_Flerbostadshus_(ton_CO2e/m2_BTA)",
+      "array": "v0068",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Reduktion",
+      "array": "v0069",
+      "length": 9491
+    },
+    {
+      "key": "Byggnader.Reduktion_Boverket,_2023",
+      "array": "v0070",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_värmeförbrukning_(kWh/pers)",
+      "array": "v0071",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_köpt_el_förbrukning_(kWh/pers)",
+      "array": "v0072",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_energiförbrukning_(kWh/pers)",
+      "array": "v0073",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_elproduktion_(kWh/pers)",
+      "array": "v0074",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_värmeproduktion_(kWh/per)",
+      "array": "v0075",
+      "length": 1
+    },
+    {
+      "key": "Energi.Värmeförbrukning_(kWh/m2/år)",
+      "array": "v0076",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning_(kWh/m2/år)",
+      "array": "v0077",
+      "length": 1
+    },
+    {
+      "key": "Energi.Energiförbrukning_(kWh/m2/år)",
+      "array": "v0078",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elproduktion_(kWh/m2/år)",
+      "array": "v0079",
+      "length": 1
+    },
+    {
+      "key": "Energi.Värmeproduktion_(kWh/m2/år)",
+      "array": "v0080",
+      "length": 1
+    },
+    {
+      "key": "Energi.Emissionsfaktor_el_(tonCO2e/kWh)",
+      "array": "v0081",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Emissionsfaktor_fjärrvärme_(tonCO2e/kWh)",
+      "array": "v0082",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Elförbrukning_\"Småhus\"_(kWh/BTA_m2)",
+      "array": "v0083",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning_\"Kontor\"_(kWh/BTA_m2)",
+      "array": "v0084",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning_\"Service\"_(kWh/BTA_m2)",
+      "array": "v0085",
+      "length": 1
+    },
+    {
+      "key": "Energi.Köpt_fjärrvärme_Flerbostadshus_(kWh/Atemp_m2)",
+      "array": "v0086",
+      "length": 1
+    },
+    {
+      "key": "Energi.Värmeförbrukning_\"Småhus\"_(kWh/BTA_m2)",
+      "array": "v0087",
+      "length": 1
+    },
+    {
+      "key": "Energi.Värmeförbrukning_\"Kontor\"_(kWh/BTA_m2)",
+      "array": "v0088",
+      "length": 1
+    },
+    {
+      "key": "Energi.Värmeförbrukning_\"Service\"_(kWh/BTA_m2)",
+      "array": "v0089",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_värmeförbrukning_\"Flerbostadshus\"_(kWh)",
+      "array": "v0090",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_värmeförbrukning_\"Småhus\"_(kWh)",
+      "array": "v0091",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_värmeförbrukning_\"Kontor\"_(kWh)",
+      "array": "v0092",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_värmeförbrukning_\"Service\"_(kWh)",
+      "array": "v0093",
+      "length": 1
+    },
+    {
+      "key": "Energi.Värmeförbrukning_\"Flerbostadshus_+_Kontor\"_(kWh/år)",
+      "array": "v0094",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Värmeförbrukning_\"Småhus\"_(kWh/m2/år)",
+      "array": "v0095",
+      "length": 1
+    },
+    {
+      "key": "Energi.Värmeförbrukning_\"Service\"_(kWh/m2/år)",
+      "array": "v0096",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_elförbrukning_\"Flerbostadshus_+_Kontor\"_(kWh)",
+      "array": "v0097",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_Elförbrukning_\"Småhus\"_(kWh)",
+      "array": "v0098",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_Elförbrukning_\"Kontor\"_(kWh)",
+      "array": "v0099",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_elförbrukning_\"Service\"_(kWh)",
+      "array": "v0100",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning_\"Flerbostadshus_+_Kontor\"_(kWh/m2/år)",
+      "array": "v0101",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_klimatutsläpp_(fjärrvärme)_\"Småhus\"_(tonCO2/år)",
+      "array": "v0102",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_klimatutsläpp_(fjärrvärme)_\"Kontor\"_(tonCO2/år)",
+      "array": "v0103",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_klimatutsläpp_(fjärrvärme)_\"Service\"_(tonCO2/år)",
+      "array": "v0104",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_klimatutsläpp_(el)_\"Flerbostadshus\"_(tonCO2/år)",
+      "array": "v0105",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_klimatutsläpp_(el)_\"Småhus\"_(tonCO2/år)",
+      "array": "v0106",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_klimatutsläpp_(el)_\"Kontor\"_(tonCO2/år)",
+      "array": "v0107",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_klimatutsläpp_(el)_\"Service\"_(tonCO2/år)",
+      "array": "v0108",
+      "length": 1
+    },
+    {
+      "key": "Energi.Klimatutsläpp_\"Energi\"_(tonCO2e)",
+      "array": "v0109",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Emissionsfaktor_fjärrvärme_(gCO2e/kwh)",
+      "array": "v0110",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Emissionsfaktor_Nordisk_elmix_(gCO2e/kWh)",
+      "array": "v0111",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Köpt_el_(fastighetsel_och_värme)_Flerbostadshus_(kWh/ATemp_m2)",
+      "array": "v0112",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerade_klimatutsläpp_(fjv)_i_stadsdel_från_lgn_(ton_CO2e)",
+      "array": "v0113",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Årliga_klimatutsläpp_(fjv)_från_lgn_i_stadsdel_(CO2e/år)",
+      "array": "v0114",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerade_klimatutsläpp_(el)_i_stadsdel_från_lgn_(ton_CO2e)",
+      "array": "v0115",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Årliga_klimatutsläpp_(el)_från_lgn_i_stadsdel_(CO2e/år)",
+      "array": "v0116",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Total_yta_solpanel_(m2)",
+      "array": "v0117",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Solpaneler_(m2/år)",
+      "array": "v0118",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Genomsnittlig_antal_vån._i_stadsdel",
+      "array": "v0119",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_takyta_med_solceller",
+      "array": "v0120",
+      "length": 1
+    },
+    {
+      "key": "Energi.Solelproduktion_(kWh)",
+      "array": "v0121",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Producerad_solel_(kWh/år)",
+      "array": "v0122",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Solpanel_energi_(kWh/m2/år)",
+      "array": "v0123",
+      "length": 1
+    },
+    {
+      "key": "Energi.Solelsproduktion_1/0",
+      "array": "v0124",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning_\"Småhus\"_(kWh/m2/år)",
+      "array": "v0125",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning_\"Kontor\"_(kWh/m2/år)",
+      "array": "v0126",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning_\"Service\"_(kWh/m2/år)",
+      "array": "v0127",
+      "length": 1
+    },
+    {
+      "key": "Energi.Köpt_MB_Silver_fjärrvärme_Flerbostadshus_(kWh/Atemp_m2)",
+      "array": "v0128",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_MB_Silver_Flerbostadshus",
+      "array": "v0129",
+      "length": 1
+    },
+    {
+      "key": "Energi.Köpt_el,_klimatförbättrad_(MB_silver)_Flerbostadshus_(kWh/ATemp_m2)",
+      "array": "v0130",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_MB_silver_(fastighetsel_och_värme)_Flerbostadshus",
+      "array": "v0131",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_Feby_Guld_Flerbostadshus",
+      "array": "v0132",
+      "length": 1
+    },
+    {
+      "key": "Energi.Köpt_Feby_Guld_fjärrvärme_Flerbostadshus_(kWh/Atemp_m2)",
+      "array": "v0133",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_BBR_fjv_Flerbostadshus",
+      "array": "v0134",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_FEBY_guld_(fastighetsel_och_värme)_Flerbostadshus",
+      "array": "v0135",
+      "length": 1
+    },
+    {
+      "key": "Energi.Köpt_el,_klimatförbättrad_(FEBY_guld)_Flerbostadshus_(kWh/ATemp_m2)",
+      "array": "v0136",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_el_BBR,_MB_resp._FEBY",
+      "array": "v0137",
+      "length": 1
+    },
+    {
+      "key": "Energi.Andel_klimatförbättrade_solpaneler",
+      "array": "v0138",
+      "length": 1
+    },
+    {
+      "key": "Energi.Emissionsfaktor_klimatförbättrad_solpanel_(gCO2e/kWh)",
+      "array": "v0139",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Emissionsfaktor_solpanel_(gCO2e/kWh)",
+      "array": "v0140",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Reduktionsfaktor_(%)",
+      "array": "v0141",
+      "length": 1
+    },
+    {
+      "key": "Energi.Reduktion_av_utsläpp_från_förbättrade_solceller_(ton_CO2e)",
+      "array": "v0142",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Reduktion_av_utsläpp_från_standard_solceller_(ton_CO2e)",
+      "array": "v0143",
+      "length": 1
+    },
+    {
+      "key": "Energi.Reduktion_av_utsläpp_solelproduktion_(ton_CO2e)",
+      "array": "v0144",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerade_klimatutsläpp_energi_inkl._solelproduktion_(ton_CO2e)",
+      "array": "v0145",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Klimatutsläpp_\"Energi\"_exkl_solproduktion_(tonCO2e)",
+      "array": "v0146",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Av/På",
+      "array": "v0147",
+      "length": 1
+    },
+    {
+      "key": "Energi.Converter_1",
+      "array": "v0148",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Andel_FJV_av_nyproduktionen_(0-1)",
+      "array": "v0149",
+      "length": 1
+    },
+    {
+      "key": "Energi.Köpt_el,_fastighetsel,_vid_fjv_(kWh/m2_Atemp)",
+      "array": "v0150",
+      "length": 1
+    },
+    {
+      "key": "Energi.Klimatutsläpp_energianvändning_nyproduktion_(ton_CO2e)",
+      "array": "v0151",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Emissionfaktor_Nordisk_elmix_(gram_CO2e/kWh)",
+      "array": "v0152",
+      "length": 1
+    },
+    {
+      "key": "Energi.Emissionsfaktor_Svensk_elmix_(ton_CO2/kWh)",
+      "array": "v0153",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Nordisk_eller_svensk_emissionsfaktor",
+      "array": "v0154",
+      "length": 1
+    },
+    {
+      "key": "Energi.Elförbrukning",
+      "array": "v0155",
+      "length": 1
+    },
+    {
+      "key": "Energi.Ackumulerad_elförbrukning_\"Flerbostadshus_+_kontor\"_(MWh)",
+      "array": "v0156",
+      "length": 9491
+    },
+    {
+      "key": "Energi.Ackumulerad_solelproduktion_(MWh)",
+      "array": "v0157",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Globala_årliga_CO2-e_utsläpp_(Gt/år)",
+      "array": "v0158",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Årlig_CO2_pool_(ton_CO2/år)",
+      "array": "v0159",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Globala_årliga_CO2-e_utsläpp_(Gt/år)_1",
+      "array": "v0160",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Befolkningstillväxt",
+      "array": "v0161",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Globala_CO2-e_utsläpp_2023-2050_(Gt)",
+      "array": "v0162",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Kvarvarande_CO2-e_budget_(1,5_C)_(Gt)",
+      "array": "v0163",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Total_CO2_pool_per_individ_(ton_CO2)",
+      "array": "v0164",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Jordens_befolkning",
+      "array": "v0165",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Totala_globala_CO2-e_utsläpp_1850-2050_(Gt)",
+      "array": "v0166",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Årlig_CO2-e_minskning_(%)",
+      "array": "v0167",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Utsläpp_(ton_CO2e/person)",
+      "array": "v0168",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Befolkningsökning_(%)",
+      "array": "v0169",
+      "length": 1
+    },
+    {
+      "key": "Global_klimatbudget.Befolkningsökning",
+      "array": "v0170",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Årlig_CO2-e_%_reduktion",
+      "array": "v0171",
+      "length": 1
+    },
+    {
+      "key": "Global_klimatbudget.Klimatbudget_(CO2e)",
+      "array": "v0172",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Klimabudget_(ton_CO2e/år)",
+      "array": "v0173",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Klimatbudget",
+      "array": "v0174",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Årlig_CO2e_reduktion_(0-1)",
+      "array": "v0175",
+      "length": 1
+    },
+    {
+      "key": "Global_klimatbudget.Global_CO2-pool_(Gton_CO2e)",
+      "array": "v0176",
+      "length": 1
+    },
+    {
+      "key": "Global_klimatbudget.Globala_årliga_CO2e_utsläpp_(Gt/år)",
+      "array": "v0177",
+      "length": 9491
+    },
+    {
+      "key": "Global_klimatbudget.Globala_emission_startår_(Gton_CO2/år)",
+      "array": "v0178",
+      "length": 1
+    },
+    {
+      "key": "Global_klimatbudget.Utsläpp",
+      "array": "v0179",
+      "length": 9491
+    },
+    {
+      "key": "Infra.Schaktmassor_ton_CO2e/m3",
+      "array": "v0180",
+      "length": 1
+    },
+    {
+      "key": "Infra.GC-väg_(stenmjöl)_(ton_CO2e/m2)",
+      "array": "v0181",
+      "length": 1
+    },
+    {
+      "key": "Infra.Gata_(ton_CO2e/m2)",
+      "array": "v0182",
+      "length": 1
+    },
+    {
+      "key": "Infra.Allmänn_platsmark_(hårdgjort)_(m2)",
+      "array": "v0183",
+      "length": 1
+    },
+    {
+      "key": "Infra.Bostadsgårdar_(m2)",
+      "array": "v0184",
+      "length": 1
+    },
+    {
+      "key": "Infra.Skolgårdar,_lekytor_(m2)",
+      "array": "v0185",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_stam_(ton_CO2e/m)",
+      "array": "v0186",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_gatunät_(m)",
+      "array": "v0187",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_servicer_(ton_CO2e/m)",
+      "array": "v0188",
+      "length": 1
+    },
+    {
+      "key": "Infra.Schaktmassor_(m3)",
+      "array": "v0189",
+      "length": 1
+    },
+    {
+      "key": "Infra.GC-väg_(stenmjöl)_(m2)",
+      "array": "v0190",
+      "length": 1
+    },
+    {
+      "key": "Infra.Gata_(m2)",
+      "array": "v0191",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_stam_(m)",
+      "array": "v0192",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_servicer_(m)",
+      "array": "v0193",
+      "length": 1
+    },
+    {
+      "key": "Infra.Schaktmassor_(ton_CO2e)",
+      "array": "v0194",
+      "length": 1
+    },
+    {
+      "key": "Infra.GC-väg_(stenmjöl)_(ton_CO2e)",
+      "array": "v0195",
+      "length": 1
+    },
+    {
+      "key": "Infra.Gata_(ton_CO2e)",
+      "array": "v0196",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_stam_(ton_CO2e)",
+      "array": "v0197",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_servicer_(ton_CO2e)",
+      "array": "v0198",
+      "length": 1
+    },
+    {
+      "key": "Infra.Allmänn_platsmark_(hårdgjort)_(ton_CO2e/m2)",
+      "array": "v0199",
+      "length": 1
+    },
+    {
+      "key": "Infra.Bostadsgårdar_(ton_CO2e/m2)",
+      "array": "v0200",
+      "length": 1
+    },
+    {
+      "key": "Infra.Skolgårdar,_lekytor_(ton_CO2e/m2)",
+      "array": "v0201",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_gatunät_(ton_CO2e/m)",
+      "array": "v0202",
+      "length": 1
+    },
+    {
+      "key": "Infra.Allmänn_platsmark_(hårdgjort)_(ton_CO2e)",
+      "array": "v0203",
+      "length": 1
+    },
+    {
+      "key": "Infra.Bostadsgårdar_(ton_CO2e)",
+      "array": "v0204",
+      "length": 1
+    },
+    {
+      "key": "Infra.Skolgårdar,_lekytor_(ton_CO2e)",
+      "array": "v0205",
+      "length": 1
+    },
+    {
+      "key": "Infra.VA_värme_-_gatunät_(ton_CO2e)",
+      "array": "v0206",
+      "length": 1
+    },
+    {
+      "key": "Infra.Klimatutsläpp_Infrastruktur_(ton_CO2e)",
+      "array": "v0207",
+      "length": 1
+    },
+    {
+      "key": "Infra.Årlig_minskning_av_infrastrukturens_klimatutsläpp",
+      "array": "v0208",
+      "length": 1
+    },
+    {
+      "key": "Infra.Årlig_minskning_av_infrastrukturens_klimatutsläpp_(2023-2050)",
+      "array": "v0209",
+      "length": 9491
+    },
+    {
+      "key": "Infra.Klimatutsläpp_anläggning_&_infra_(ton_CO2e)",
+      "array": "v0210",
+      "length": 9491
+    },
+    {
+      "key": "Infra.Klimatutsläpp_anläggning_&_infra_(ton_CO2e/år)",
+      "array": "v0211",
+      "length": 1
+    },
+    {
+      "key": "Infra.C_till_CO2",
+      "array": "v0212",
+      "length": 1
+    },
+    {
+      "key": "Infra.Utsläpp_mulljord_(ton_CO2e)",
+      "array": "v0213",
+      "length": 1
+    },
+    {
+      "key": "Infra.Utsläpp_mulljord_(ton_CO2e/år)",
+      "array": "v0214",
+      "length": 1
+    },
+    {
+      "key": "Infra.Kolhalt_mulljord_(0-1)",
+      "array": "v0215",
+      "length": 1
+    },
+    {
+      "key": "Infra.Mängd_bortforslad_mulljord_(ton/år)",
+      "array": "v0216",
+      "length": 1
+    },
+    {
+      "key": "Infra.Total_mängd_mulljord_(ton)",
+      "array": "v0217",
+      "length": 1
+    },
+    {
+      "key": "Infra.Mulljord_(ton/år)",
+      "array": "v0218",
+      "length": 1
+    },
+    {
+      "key": "Invånare.Bostadsyta_per_invånare_(m2_BTA/pers)",
+      "array": "v0219",
+      "length": 1
+    },
+    {
+      "key": "Invånare.Antal_invånare_nyproduktion_(person)",
+      "array": "v0220",
+      "length": 9491
+    },
+    {
+      "key": "Invånare.Totala_antalet_hushåll_(n)",
+      "array": "v0221",
+      "length": 9491
+    },
+    {
+      "key": "Invånare.Bostadsyta_per_invånare_i_befintliga_bostäder_(n)",
+      "array": "v0222",
+      "length": 1
+    },
+    {
+      "key": "Invånare.Total_antal_invånare",
+      "array": "v0223",
+      "length": 9491
+    },
+    {
+      "key": "Invånare.Projekttid_(år)",
+      "array": "v0224",
+      "length": 9491
+    },
+    {
+      "key": "Invånare.Levnadsår_av_invånare_i_stadsdel_(år)",
+      "array": "v0225",
+      "length": 9491
+    },
+    {
+      "key": "Invånare.Antal_nya_hushåll_(n/år)",
+      "array": "v0226",
+      "length": 1
+    },
+    {
+      "key": "Invånare.Levnadsår_i_stadsdel_(år/år)",
+      "array": "v0227",
+      "length": 9491
+    },
+    {
+      "key": "Invånare.Totalt_antalet_levnadsår_(år)",
+      "array": "v0228",
+      "length": 9491
+    },
+    {
+      "key": "Konsumtion.Kläder_&_skor",
+      "array": "v0229",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Möbler,_apparater",
+      "array": "v0230",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Hälsan",
+      "array": "v0231",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Rekreationer",
+      "array": "v0232",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Restauranger,_caféer_&_hotell",
+      "array": "v0233",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Övriga_varor_&_tjänster",
+      "array": "v0234",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Finasiella_&_försäkringstjänster",
+      "array": "v0235",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Personlig_konsumption_(ton_CO2e/pers,_år)",
+      "array": "v0236",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Kläder",
+      "array": "v0237",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Möbler",
+      "array": "v0238",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Hälsa",
+      "array": "v0239",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Rekreation",
+      "array": "v0240",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Restaurang",
+      "array": "v0241",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Övrigt",
+      "array": "v0242",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Finans",
+      "array": "v0243",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Klimatutsläpp_konsumtion_(ton_CO2e)",
+      "array": "v0244",
+      "length": 9491
+    },
+    {
+      "key": "Konsumtion.Klimatutsläpp_(ton_CO2e/år)",
+      "array": "v0245",
+      "length": 9491
+    },
+    {
+      "key": "Konsumtion.Årlig_minskning_av_konsumtionens_klimatutsläpp",
+      "array": "v0246",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Årlig_minskning_av_konsumtionens_klimatutsläpp_(2023-2050)",
+      "array": "v0247",
+      "length": 9491
+    },
+    {
+      "key": "Konsumtion.På/Av_Årlig_minskning_av_offentliga_klimatutsläpp",
+      "array": "v0248",
+      "length": 1
+    },
+    {
+      "key": "Konsumtion.Minskad_konsumtion_(%)",
+      "array": "v0249",
+      "length": 1
+    },
+    {
+      "key": "Mat.Årlig_minskning_klimatavtrycket_2020-2050_(%)",
+      "array": "v0250",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Klimatutsläpp_av_matkonsumtion_stadsdel_(tonCO2e/år)",
+      "array": "v0251",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Klimatavtryck_mat_(tonCO2e/pers/år)",
+      "array": "v0252",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Klimatavtryck_Mat_(kg_CO2e/pers,_år)",
+      "array": "v0253",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatutsläpp_\"Mat\"_(tonCO2e/år)",
+      "array": "v0254",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Klimatutsläpp_av_matkonsumtion_stadsdel_(tonCO2e)",
+      "array": "v0255",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Klimatutsläpp_\"Mat\"_(tonCO2_e)",
+      "array": "v0256",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Total_klimatavtryck_mat_(tonCO2e/pers)",
+      "array": "v0257",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Klimatavtryck_Mat_(kg_CO2e/pers)",
+      "array": "v0258",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Vegan",
+      "array": "v0259",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatutsläpp_\"Mat\"_(tonCO2e/pers)",
+      "array": "v0260",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Andel_vegetarianer/veganer_i_stadsdel",
+      "array": "v0261",
+      "length": 1
+    },
+    {
+      "key": "Mat.Årlig_minskning_av_klimatbelstning_för_mat_2020-2050_(%)",
+      "array": "v0262",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Vegeterian",
+      "array": "v0263",
+      "length": 1
+    },
+    {
+      "key": "Mat.Årlig_minskning_matkonsumtion",
+      "array": "v0264",
+      "length": 1
+    },
+    {
+      "key": "Mat.Summa_klimatavtryck_mat_(tonCO2e/pers/år)",
+      "array": "v0265",
+      "length": 9491
+    },
+    {
+      "key": "Mat.Konsumtion_tofu_(kgCO2/pers/år)",
+      "array": "v0266",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_tofu_(tonCO2e/kg)",
+      "array": "v0267",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_frukt_(kgCO2e/pers/år)",
+      "array": "v0268",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_kaffe_(kgCO2e/pers/år)",
+      "array": "v0269",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_gryn_(kgCO2e/pers/år)",
+      "array": "v0270",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_kyckling_(kgCO2e/pers/år)",
+      "array": "v0271",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_olja_(kgCO2e/pers/år)",
+      "array": "v0272",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_lamm_(kgCO2e/pers/år)",
+      "array": "v0273",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_gris_(kgCO2e/pers/år)",
+      "array": "v0274",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_tofu_(kgCO2e/pers/år)",
+      "array": "v0275",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_rotfrukter_(tonCO2e/kg)",
+      "array": "v0276",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_gris_(tonCO2e/kg)",
+      "array": "v0277",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_kaffe_(kgCO2/pers/år)",
+      "array": "v0278",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_kyckling_(kgCO2/pers/år)",
+      "array": "v0279",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_lamm_(kgCO2/pers/år)",
+      "array": "v0280",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_ägg_(kgCO2/pers/år)",
+      "array": "v0281",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_dryck_(tonCO2e/kg)",
+      "array": "v0282",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_rotfrukter_(kgCO2/pers/år)",
+      "array": "v0283",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_gris_(kgCO2/pers/år)",
+      "array": "v0284",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_dryck_(kgCO2/pers/år)",
+      "array": "v0285",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_bönor_(tonCO2e/kg)",
+      "array": "v0286",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_ägg_(kgCO2e/pers/år)",
+      "array": "v0287",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_dryck_(kgCO2e/pers/år)",
+      "array": "v0288",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_rotfrukter_(kgCO2e/pers/år)",
+      "array": "v0289",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_ris_(kgCO2e/pers/år)",
+      "array": "v0290",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_frukt_(tonCO2e/kg)",
+      "array": "v0291",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_pasta_(kgCO2e/pers/år)",
+      "array": "v0292",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_mejerier_(kgCO2e/pers/år)",
+      "array": "v0293",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_fisk_(kgCO2e/pers/år)",
+      "array": "v0294",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_viltkött_(kgCO2e/pers/år)",
+      "array": "v0295",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_mjöl_och_gryn_(kgCO2/pers/år)",
+      "array": "v0296",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_kyckling_(tonCO2e/kg)",
+      "array": "v0297",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_lamm_(tonCO2e/kg)",
+      "array": "v0298",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_grönsaker_(tonCO2e/kg)",
+      "array": "v0299",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_nötkött_(kgCO2e/pers/år)",
+      "array": "v0300",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_kaffe_(tonCO2e/kg)",
+      "array": "v0301",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_mjöl_+_gryn_(tonCO2e/kg)",
+      "array": "v0302",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_bönor_(kgCO2/pers/år)",
+      "array": "v0303",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_ägg_(tonCO2e/kg)",
+      "array": "v0304",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_olja_(tonCO2e/kg)",
+      "array": "v0305",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_grönsaker_(kgCO2/pers/år)",
+      "array": "v0306",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_frukt_(kgCO2/pers/år)",
+      "array": "v0307",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_olja_(kgCO2/pers/år)",
+      "array": "v0308",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_mejerier_(tonCO2e/kg)",
+      "array": "v0309",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_ris_(kgCO2/pers/år)",
+      "array": "v0310",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_dryck",
+      "array": "v0311",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_gryn",
+      "array": "v0312",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_kött",
+      "array": "v0313",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_nötkött_(tonCO2e/kg)",
+      "array": "v0314",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_ris_(tonCO2e/kg)",
+      "array": "v0315",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_nötkött_(kgCO2/pers/år)",
+      "array": "v0316",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_pasta_(kgCO2/pers/år)",
+      "array": "v0317",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_fisk_(tonCO2e/kg)",
+      "array": "v0318",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_grönsaker",
+      "array": "v0319",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_fisk_(kgCO2/pers/år)",
+      "array": "v0320",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_pasta_(tonCO2e/kg)",
+      "array": "v0321",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_vilt_(kgCO2/pers/år)",
+      "array": "v0322",
+      "length": 1
+    },
+    {
+      "key": "Mat.Annat",
+      "array": "v0323",
+      "length": 1
+    },
+    {
+      "key": "Mat.Total_klimatavtryck_av_icke_animalisk_konsumtion",
+      "array": "v0324",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_frukt",
+      "array": "v0325",
+      "length": 1
+    },
+    {
+      "key": "Mat.Hushållens_konsumtion_av_livsmedel_(kg_CO2e/år)",
+      "array": "v0326",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_viltkött_(tonCO2e/kg)",
+      "array": "v0327",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_mat_(tonCO2/per/år)_1.5_Degree_Lifestyle",
+      "array": "v0328",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_ägg",
+      "array": "v0329",
+      "length": 1
+    },
+    {
+      "key": "Mat.Icke_animalisk_klimatavtryck_(kg_CO2e/kg)",
+      "array": "v0330",
+      "length": 1
+    },
+    {
+      "key": "Mat.Icke_animalisk_protein_konsumtion_(kg/pers,_år)",
+      "array": "v0331",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_Mat_(tonCO2e)",
+      "array": "v0332",
+      "length": 1
+    },
+    {
+      "key": "Mat.Summa_andelar_mat",
+      "array": "v0333",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_Bönor",
+      "array": "v0334",
+      "length": 1
+    },
+    {
+      "key": "Mat.Totalt_animaliskt_kött_(kg_CO2e/kg,_år)",
+      "array": "v0335",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_icke_animalisk_konsumtion_av_protein",
+      "array": "v0336",
+      "length": 1
+    },
+    {
+      "key": "Mat.Total_animalisk_konsumtion_(kg/pers,_år)",
+      "array": "v0337",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_fisk",
+      "array": "v0338",
+      "length": 1
+    },
+    {
+      "key": "Mat.Andel_mjölkprodukter",
+      "array": "v0339",
+      "length": 1
+    },
+    {
+      "key": "Mat.Övrigt_animaliskt_kött_(kg_CO2e/kg,_år)",
+      "array": "v0340",
+      "length": 1
+    },
+    {
+      "key": "Mat.Konsumtion_mejerier_(kgCO2/pers/år)",
+      "array": "v0341",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_Övrigt_kött_(kg_CO2e/kg)",
+      "array": "v0342",
+      "length": 1
+    },
+    {
+      "key": "Mat.Totalt_övrigt_kött_(kg_CO2e/kg,_år)",
+      "array": "v0343",
+      "length": 1
+    },
+    {
+      "key": "Mat.Totalt_rött_kött_(kg_CO2e/kg,_år)",
+      "array": "v0344",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_övrig_animalisk_(kg_CO2e/kg)",
+      "array": "v0345",
+      "length": 1
+    },
+    {
+      "key": "Mat.Övrigt_kött_konsumtion_(kg/pers,_år)",
+      "array": "v0346",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_Rött_kött_(kg_CO2e/kg)",
+      "array": "v0347",
+      "length": 1
+    },
+    {
+      "key": "Mat.Rött_kött_konsumtion_(kg/pers,_år)",
+      "array": "v0348",
+      "length": 1
+    },
+    {
+      "key": "Mat.Övrig_aimalisk_konsumtion_(kg/pers,_år)",
+      "array": "v0349",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_grönsaker_(kgCO2e/pers/år)",
+      "array": "v0350",
+      "length": 1
+    },
+    {
+      "key": "Mat.Klimatavtryck_bönor_(kgCO2e/pers/år)",
+      "array": "v0351",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Bilinnehav_Flerbostadshus_(bil/hushåll)",
+      "array": "v0352",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Körda_km_per_bil_(km/år)",
+      "array": "v0353",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Andel_elbil_(0-1)",
+      "array": "v0354",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Emissionsfaktor_Elbil_(Volvo_C40)_(ton_CO2e/km)",
+      "array": "v0355",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Emissionsfaktor_(Volvo_XC40_ICE)_(ton_CO2e/km)",
+      "array": "v0356",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Totalt_antal_bilar_i_stadsdel_(n)",
+      "array": "v0357",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Medelstorlek_hushåll_Flerbostadshus_(m2_Atemp)",
+      "array": "v0358",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Klimatemissioner,_privatbilism_(elbil)_Flerbostadshus_M1_(ton_CO2e)",
+      "array": "v0359",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Mobilitetsåtgärd_Reducerad_P-norm_(%)",
+      "array": "v0360",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Mobilitetsåtgärd_Framkomlighetsbegränsningar_för_bilar_(%)",
+      "array": "v0361",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Mobilitetsåtgärd_Mobilitetshub_(%)",
+      "array": "v0362",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Mobilitetsåtgärd_Utbyggd_kollektivtrafik_(%)",
+      "array": "v0363",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Klimatemissioner_privatbilism_inkl._mobilitetsåtgärder_M1_(ton_CO2e)\"",
+      "array": "v0364",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Reslängd_(km/pers,_år)",
+      "array": "v0365",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Andel_bilkörning_av_total_reslängd_(0-1)",
+      "array": "v0366",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Mobilitetsåtgärder_(0-6)",
+      "array": "v0367",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Beräknad_andel_bilkörning_av_total_reslängd_(0-1)",
+      "array": "v0368",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Total_reslängd_med_bil_i_stadsdel",
+      "array": "v0369",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Klimatemissioner,_privatbilism_Flerbostadshus_M2_(ton_CO2e)",
+      "array": "v0370",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.a_P-norm_(bilplats/hushåll)",
+      "array": "v0371",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.b_P-avgift_(kr/bil,år)",
+      "array": "v0372",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.c_avstånd_till_p-plats_(m)",
+      "array": "v0373",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.d_avstånd_till_kollektivtrafik_(m)",
+      "array": "v0374",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Kollektivresor_(personkm/år)",
+      "array": "v0375",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Emissionsfaktor_medelbil_(kg_CO2e/km)",
+      "array": "v0376",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Emissionsfaktor_kollektivresor_(kg_CO2e/personkm)",
+      "array": "v0377",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Klimatpåverkan_bilresor_(kg_CO2e/hushåll)",
+      "array": "v0378",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Klimatpåverkan_bilresor_(kg_CO2e/hushåll,år)",
+      "array": "v0379",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Klimatpåverkan_kollektivresor_(kg_CO2e/år)",
+      "array": "v0380",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Klimatpåverkan_kollektivresor_(kg_CO2e)",
+      "array": "v0381",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Kollektiv_medelsträcka_(km/dag)",
+      "array": "v0382",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Bil_körsträcka_(km/hushåll,år)",
+      "array": "v0383",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Emissionsfaktor_nordisk_el_(kg_CO2e/kWh)",
+      "array": "v0384",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Bil_medelkörsträcka_(km/bil,år)",
+      "array": "v0385",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Emissionsfaktor_elbil_(kg_CO2e/km)",
+      "array": "v0386",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Elbehov_bil_kWh/km",
+      "array": "v0387",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Fossilbränsle_(kg_CO2e/km)",
+      "array": "v0388",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Antal_personbilar_(nationellt)",
+      "array": "v0389",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Andel_elbilar_(elbil/personbil)",
+      "array": "v0390",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Antal_elbilar_(nationellt)",
+      "array": "v0391",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Elbilsscenario_högt-lågt",
+      "array": "v0392",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Elbilar_prognos",
+      "array": "v0393",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Förflyttade_reskm,_bil_till_kollektivt",
+      "array": "v0394",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Förflyttning_kollektivtrafik",
+      "array": "v0395",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Klimatpåverkan_resor_(kg_CO2e_/_hushåll,år)",
+      "array": "v0396",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Klimatpåverkan_resor_(kg_CO2e/hushåll)",
+      "array": "v0397",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Antal_vuxna_per_hushåll",
+      "array": "v0398",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Klimatemissioner,_privatbilism_Flerbostadshus_M3_(ton_CO2e)",
+      "array": "v0399",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Av/På_M1",
+      "array": "v0400",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Ackumulerade_klimatemissioner_från_transporter_M1_(CO2e)",
+      "array": "v0401",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Klimatemissioner_från_privatbilism_M1_(ton_CO2e)",
+      "array": "v0402",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Av/På_Elbilens_LCA",
+      "array": "v0403",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Miljövinst_att_köra_elbil_(ton_CO2/år)",
+      "array": "v0404",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Ackmulerad_miljövinst_att_köra_elbil_(ton_CO2e/pers)",
+      "array": "v0405",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Miljövinst_att_köra_elbilen_(ton_CO2e/år)",
+      "array": "v0406",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Körda_kilometrar_(km/år,_pers)",
+      "array": "v0407",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Utsläpp_Volvo_XC40_ICE_(ton_CO2e/år,_2000_km)",
+      "array": "v0408",
+      "length": 1
+    },
+    {
+      "key": "Mobilitet.Utsläpp_Volvo_XC40_Recharge_(ton_CO2e/år,_2000_km)",
+      "array": "v0409",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Andel_elbil_(0-1)_1",
+      "array": "v0410",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Klimatemissioner,_privatbilism_(fossilt_bränsle)_Flerbostadshus_M1_(ton_CO2e)",
+      "array": "v0411",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Klimatemissioner_privatbilism_(alla_bilar)_M1_(ton_CO2e)",
+      "array": "v0412",
+      "length": 9491
+    },
+    {
+      "key": "Mobilitet.Körda_bilkilometrar_(km/pers,_år)",
+      "array": "v0413",
+      "length": 9491
+    },
+    {
+      "key": "Sammanställning.Klimatutsläpp_för_stadsdel_(ton_CO2e)",
+      "array": "v0414",
+      "length": 9491
+    },
+    {
+      "key": "Sammanställning.Klimatutsläpp_för_stadsdel_inkl._konsumtionsbaserade_utsläpp_(ton_CO2e)",
+      "array": "v0415",
+      "length": 9491
+    },
+    {
+      "key": "Sammanställning.Klimat_balans_för_stadsdelen_(ton_CO2e)",
+      "array": "v0416",
+      "length": 9491
+    },
+    {
+      "key": "Sammanställning.Klimatbudget_(2023-2050)_för_stadsdel_(ton_CO2er)",
+      "array": "v0417",
+      "length": 9491
+    },
+    {
+      "key": "Sammanställning.Klimatbudget_(2023-2050)_för_stadsdel_(ton_CO2/år)",
+      "array": "v0418",
+      "length": 9491
+    },
+    {
+      "key": "Sammanställning.År",
+      "array": "v0419",
+      "length": 9491
+    },
+    {
+      "key": "Sammanställning.Av/På_Tillåt_överskott_på_solelproduktion",
+      "array": "v0420",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Parklind_omkrets_vid_plantering_(cm)",
+      "array": "v0421",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Bok_omkrets_vid_plantering_(cm)",
+      "array": "v0422",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Platan_omkrets_vid_plantering_(cm)",
+      "array": "v0423",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Generiskt_träd_omkrets_vid_plantering_(cm)",
+      "array": "v0424",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Antal_träd_planterade_(n)",
+      "array": "v0425",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Parklind_tillväxt_per_år_(%)",
+      "array": "v0426",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Parklind_omkretstillväxt_(cm/år)",
+      "array": "v0427",
+      "length": 9491
+    },
+    {
+      "key": "Urbana_träd.Parklind_diameter_(cm)",
+      "array": "v0428",
+      "length": 9491
+    },
+    {
+      "key": "Urbana_träd.Parklind_kolinlagring_vid_plantering_(ton_CO2/år)",
+      "array": "v0429",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Årlig_procentuell_kolinlagring_(%)",
+      "array": "v0430",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Parklind_total_kolinlagring_(ton_CO2/år)",
+      "array": "v0431",
+      "length": 9491
+    },
+    {
+      "key": "Urbana_träd.Grannskapets_total_mängd_träd_(n)",
+      "array": "v0432",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Grannskapets_totala_kolinlagring_från_urbana_träd_(ton)",
+      "array": "v0433",
+      "length": 9491
+    },
+    {
+      "key": "Urbana_träd.Kolinlagring_i_urbana_träd_(ton_CO2e/år",
+      "array": "v0434",
+      "length": 9491
+    },
+    {
+      "key": "Urbana_träd.Ackumulerad_kolinlagring_nyplanterade_urbana_träd_(ton_CO2e)",
+      "array": "v0435",
+      "length": 9491
+    },
+    {
+      "key": "Urbana_träd.C_till_CO2",
+      "array": "v0436",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Ackumulerad_kolinlagring_i_befintliga_träd_(ton_CO2e)",
+      "array": "v0437",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Kolinlagring_i_träd_(ton_CO2e/år)",
+      "array": "v0438",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Antal_befintliga_stadsträd_(n)",
+      "array": "v0439",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Tillväxthastighet",
+      "array": "v0440",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.C-halt_i_växande_träd_(0-1)",
+      "array": "v0441",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Årligt_upptag_av_CO2_av_befintliga_träd_(ton_CO2/träd)",
+      "array": "v0442",
+      "length": 1
+    },
+    {
+      "key": "Urbana_träd.Sammanlagd_kolinlagring_stadsträd_(ton_CO2)",
+      "array": "v0443",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Negativa_utsläpp_konstruktionsvirke_(ton_CO2e)",
+      "array": "v0444",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Konstruktionsvirke_i_trähus_(ton_virke/m2_BTA)",
+      "array": "v0445",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Kolhalt_i_virke",
+      "array": "v0446",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.C_till_CO2",
+      "array": "v0447",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Andel_virke_med_CCF_certifikat",
+      "array": "v0448",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Parklind_omkrets_vid_plantering_(cm)",
+      "array": "v0449",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Bok_omkrets_vid_plantering_(cm)",
+      "array": "v0450",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Platan_omkrets_vid_plantering_(cm)",
+      "array": "v0451",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Generiskt_träd_omkrets_vid_plantering_(cm)",
+      "array": "v0452",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Parklind_antal_planterade_(n)",
+      "array": "v0453",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Parklind_tillväxt_per_år_(%)",
+      "array": "v0454",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Parklind_omkretstillväxt_(cm/år)",
+      "array": "v0455",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Parklind_diameter_(cm)",
+      "array": "v0456",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Parklind_kolinlagring_vid_plantering_(ton_CO2/år)",
+      "array": "v0457",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Årlig_procentuell_kolinlagring_(%)",
+      "array": "v0458",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Parklind_total_kolinlagring_(ton_CO2/år)",
+      "array": "v0459",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Grannskapets_total_mängd_träd_(n)",
+      "array": "v0460",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Grannskapets_totala_kolinlagring_från_urbana_träd_(ton)",
+      "array": "v0461",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.På/Av_Urbana_träd",
+      "array": "v0462",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Andel_negativt_utsläpp_för_CCF_virke",
+      "array": "v0463",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Negativt_utsläpp_biokol_(ton_CO2e)",
+      "array": "v0464",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Negativt_utsläpp_biokol_(ton_CO2e/år)",
+      "array": "v0465",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Kolhalt_biokol_(0-1)",
+      "array": "v0466",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Mängd_använd_biokol_(ton/år)",
+      "array": "v0467",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Negativa_utsläpp_konstruktionsvirke_(tonCO2e)",
+      "array": "v0468",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Total_mängd_konstruktionsvirke_(ton)",
+      "array": "v0469",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Mängd_konstruktionsvirke_(ton/år)",
+      "array": "v0470",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.CCF_certificerad_virkesvolym_(ton/år)",
+      "array": "v0471",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Total_mängd_biokol_(ton)",
+      "array": "v0472",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Biokol_(ton/år)",
+      "array": "v0473",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Andel_CCF_certifierad_konstruktionsvirkesvolym_(0-2)",
+      "array": "v0474",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Negativa_utsläpp_konstruktionsvirke_(ton_CO2/år)",
+      "array": "v0475",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Negativt_utsläpp",
+      "array": "v0476",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Negativt_utsläpp_(ton/år)",
+      "array": "v0477",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Total_mängd_inbunden_CO2_(ton)",
+      "array": "v0478",
+      "length": 9491
+    },
+    {
+      "key": "Återbetalning.Mängd_inbunden_CO2_från_skog_(ton/år)",
+      "array": "v0479",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Skogkbm_per_hektar_(m3/ha)",
+      "array": "v0480",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Hektar_(ha)",
+      "array": "v0481",
+      "length": 1
+    },
+    {
+      "key": "Återbetalning.Kostnad_för_skogsmark_(kr/ha)",
+      "array": "v0482",
+      "length": 1
+    },
+    {
+      "key": "Övrigt.Start_år",
+      "array": "v0483",
+      "length": 1
+    },
+    {
+      "key": "Övrigt.År",
+      "array": "v0484",
+      "length": 9491
+    },
+    {
+      "key": "Exploatering.Total_yta_stadsdel_(m2)",
+      "array": "v0485",
+      "length": 1
+    },
+    {
+      "key": "Exploatering.Byggrätt_Tomtyta_för_byggnader_(m2)",
+      "array": "v0486",
+      "length": 1
+    },
+    {
+      "key": "Exploatering.Exploateringstal",
+      "array": "v0487",
+      "length": 9491
+    },
+    {
+      "key": "Exploatering.Total_byggnadsyta_(m2_BTA)",
+      "array": "v0488",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Nyproduktion_Kontor_(m2_BTA)",
+      "array": "v0489",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Ackumulerad_nyproduktion_Kontor_(m2_BTA)",
+      "array": "v0490",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Nyproducerade_kontor_(m2_BTA/år)",
+      "array": "v0491",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Ackmulerad_CO2e-emissioner_Kontor_(ton_CO2e)",
+      "array": "v0492",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Flöde_2",
+      "array": "v0493",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_(2022,_medelvärde)_A1-A5_Kontor_(ton_CO2e/m2_BTA)",
+      "array": "v0494",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Ackmulerad_CO2e-emissioner_(2022,_klimatförbättrad)_Kontor_(ton_CO2e)",
+      "array": "v0495",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Flöde_3",
+      "array": "v0496",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_(2022,_klimatförbättrad)_A1-A5_Kontor_(ton_CO2e/m2_Atemp)",
+      "array": "v0497",
+      "length": 1
+    },
+    {
+      "key": "Kontor.CO2e_emissions_besparingar_Kontor_(ton_CO2e)",
+      "array": "v0498",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Andel_klimatförbättrade_av_Kontor_(0-1)",
+      "array": "v0499",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Ackumulerade_CO2e_emissioner_Kontor_(ton_CO2e)",
+      "array": "v0500",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_betonghus_Kontor",
+      "array": "v0501",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_klimatförbättrad_betonghus_Kontor",
+      "array": "v0502",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_stålhus_Kontor",
+      "array": "v0503",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_klimatförbättrad_stålhus_Kontor",
+      "array": "v0504",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_trähus_Kontor",
+      "array": "v0505",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Andel_betonghus_Kontor",
+      "array": "v0506",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Andel_klimatförbättrad_betonghus_Kontor",
+      "array": "v0507",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Andel_stålhus_Kontor",
+      "array": "v0508",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Andel_klimatförbättrad_stålhus_Kontor",
+      "array": "v0509",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Andel_trähus_Kontor",
+      "array": "v0510",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_Kontor_(ton_CO2e/m2_BTA)",
+      "array": "v0511",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_Kontor_Trähus_(ton_CO2e/m2_BTA)",
+      "array": "v0512",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_Klimatförbättrad_Kontor_Stålhus_(ton_CO2e/m2_BTA)",
+      "array": "v0513",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_Kontor_Stålhus_(ton_CO2e/m2_BTA)",
+      "array": "v0514",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_Kontor_Klimatförbättrad_Betonghus_(ton_CO2e/m2_BTA)",
+      "array": "v0515",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Utsläpp_Kontor_(ton_CO2e)",
+      "array": "v0516",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Ackumulerade_klimatbelastning_installationer_Kontor_(ton_CO2e)",
+      "array": "v0517",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Av/På_Klimatbelastning_Installationer",
+      "array": "v0518",
+      "length": 1
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_betonghus_Kontor_(ton_CO2e)",
+      "array": "v0519",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_klimatfärbättrad_betonghus_Kontor_(ton_CO2e)",
+      "array": "v0520",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_stålhus_Kontor_(ton_CO2e)",
+      "array": "v0521",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_klimatförbättrad_betonghus_Kontor_(ton_CO2e)",
+      "array": "v0522",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatpåverkan_trähus_Kontor_(ton_CO2e)",
+      "array": "v0523",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Ackumulerade_klimatutsläpp_Kontor_(ton_CO2e)",
+      "array": "v0524",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Reduktion",
+      "array": "v0525",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Reduktion_Boverket,_2023",
+      "array": "v0526",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Ackumulerade_klimatbelastning_installationer_Flerbostadshus_(ton_CO2e)",
+      "array": "v0527",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatbelastning_installationer_Flerbostadshus_(ton_CO2e/år)",
+      "array": "v0528",
+      "length": 9491
+    },
+    {
+      "key": "Kontor.Klimatbelastning_installationer_Kontor_(ton_CO2e/m2_BTA)",
+      "array": "v0529",
+      "length": 1
+    },
+    {
+      "key": "Offentliga_byggnader.Nyproduktion_Flerbostadshus_(m2_BTA)",
+      "array": "v0530",
+      "length": 1
+    },
+    {
+      "key": "Offentliga_byggnader.Ackumulerad_nyproduktion_Flerbostadshus_(m2_BTA)",
+      "array": "v0531",
+      "length": 9491
+    },
+    {
+      "key": "Offentliga_byggnader.Nyproducerade_flerbostadshus_(m2_BTA/år)",
+      "array": "v0532",
+      "length": 1
+    },
+    {
+      "key": "Offentliga_byggnader.Ackmulerad_CO2e-emissioner_Flerbostadshus_(ton_CO2e)",
+      "array": "v0533",
+      "length": 9491
+    },
+    {
+      "key": "Offentliga_byggnader.Flöde_2",
+      "array": "v0534",
+      "length": 9491
+    },
+    {
+      "key": "Offentliga_byggnader.Klimatpåverkan_(2022,_medelvärde)_A1-A5_Flerbostadshus_(ton_CO2e/m2_BTA)",
+      "array": "v0535",
+      "length": 1
+    },
+    {
+      "key": "Offentliga_byggnader.Ackmulerad_CO2e-emissioner_(2022,_klimatförbättrad)_Flerbostadshus_(ton_CO2e)",
+      "array": "v0536",
+      "length": 9491
+    },
+    {
+      "key": "Offentliga_byggnader.Flöde_3",
+      "array": "v0537",
+      "length": 9491
+    },
+    {
+      "key": "Offentliga_byggnader.Klimatpåverkan_(2022,_klimatförbättrad)_A1-A5_Flerbostadshus_(ton_CO2e/m2_Atemp)",
+      "array": "v0538",
+      "length": 1
+    },
+    {
+      "key": "Offentliga_byggnader.CO2e_emissions_besparingar_Flerbostadshus_(ton_CO2e)",
+      "array": "v0539",
+      "length": 9491
+    },
+    {
+      "key": "Offentliga_byggnader.Andel_klimatförbättrade_av_fastighetsbeståndet_Flerbostadshus_(0-1)",
+      "array": "v0540",
+      "length": 1
+    },
+    {
+      "key": "Offentliga_byggnader.Ackumulerade_CO2e_emissioner_Flerbostadshus_(ton_CO2e)",
+      "array": "v0541",
+      "length": 9491
+    },
+    {
+      "key": "P-platser.Ackumulerad_klimatbelastning_undermarksgarage_(ton_CO2e)",
+      "array": "v0542",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Klimatbelastning_undermarksgarage_(ton_CO2e/år)",
+      "array": "v0543",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Antal_P-platser_i_undermarksgarage_(n)",
+      "array": "v0544",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Andel_P-platser_i_undermarksgarage_av_total_antal_P-Platser_(0-1)",
+      "array": "v0545",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Klimatbelastning_av_undermarksgarage_(ton_CO2e/P-Plats)",
+      "array": "v0546",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Ackumulerad_klimatbelastning_P-hus_(ton_CO2e)",
+      "array": "v0547",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Klimatbelastning_P-hus_(ton_CO2e/år)",
+      "array": "v0548",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Andel_P-platser_i_P-hus_av_total_antal_P-Platser_(0-1)",
+      "array": "v0549",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Antal_P-platser_i_P-hus_(n)",
+      "array": "v0550",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Klimatbelastning_av_P-hus_(ton_CO2e/P-Plats)",
+      "array": "v0551",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Ackumulerad_klimatbelastning_P-platser_för_flerbostadshus_(ton_CO2e)",
+      "array": "v0552",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Av/På_Klimatbelastning_av_garage",
+      "array": "v0553",
+      "length": 1
+    },
+    {
+      "key": "P-platser.P-norm_(P-plats/hushåll)",
+      "array": "v0554",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Reduktion",
+      "array": "v0555",
+      "length": 9491
+    },
+    {
+      "key": "P-platser.Ackumulerat_klimatbelastning_P-plats_kontor_(ton_CO2e)",
+      "array": "v0556",
+      "length": 9491
+    },
+    {
+      "key": "P-platser.Ackumulerat_klimatbelastning_P-plats_kontor_(ton_år_CO2e/år)",
+      "array": "v0557",
+      "length": 9491
+    },
+    {
+      "key": "P-platser.Antal_nyproducerade_P-platser_undermarksgarage_kontor_(n)",
+      "array": "v0558",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Antal_nyproducerade_P-platser_P-hus_kontor_(n)",
+      "array": "v0559",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Antal_nyproducerade_P-platser_undermarksgarage_kontor_(P-plats/år)",
+      "array": "v0560",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Antal_nyproducerade_P-platser_P-hus_kontor_(P-plats/år)",
+      "array": "v0561",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Ackumulerad_klimatbelastning_P-platser_kontor_(ton_CO2e)",
+      "array": "v0562",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Totalt_antal_nyproducerade_kontor_P-platser_(n)",
+      "array": "v0563",
+      "length": 9491
+    },
+    {
+      "key": "P-platser.Totalt_antal_producerade_P-platser_(P-platser/år)",
+      "array": "v0564",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Total_antal_P-platser_kontor",
+      "array": "v0565",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Ackumulerad_klimatbelastning_P-platser_(ton_CO2e)",
+      "array": "v0566",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Total_antalet_P-platser_för_kontor_(n)",
+      "array": "v0567",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Antal_nyproducerade_P-platser_i_P-hus_flerbostadshus_(P-plats/år)",
+      "array": "v0568",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Antal_nyproducerade_P-platser_i_undermarksgarage_flerbostadshus_(P-plats/år)",
+      "array": "v0569",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Totala_antalet_P-platser_för_boende_(n)",
+      "array": "v0570",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Totala_antalet_P-platser_för_boende",
+      "array": "v0571",
+      "length": 1
+    },
+    {
+      "key": "P-platser.Totala_antalet_P-platser_för_boende_(P-plats/år)",
+      "array": "v0572",
+      "length": 1
+    },
+    {
+      "key": "ROT.Ack._CO2e_utsläpp_ROT-projekt_(ton_CO2e)",
+      "array": "v0573",
+      "length": 9491
+    },
+    {
+      "key": "ROT.CO2e_utsläpp_ROT-projekt_av_nyproduktion_(ton_CO2e/år)",
+      "array": "v0574",
+      "length": 9491
+    },
+    {
+      "key": "ROT.Tidsförskjutning_av_ROT_och_underhålls-_projekt_(n_år)",
+      "array": "v0575",
+      "length": 1
+    },
+    {
+      "key": "ROT.Andel_av_nybyggnation_i_behov_av_ROT_och_underhåll_(0-1)",
+      "array": "v0576",
+      "length": 1
+    },
+    {
+      "key": "ROT.Klimatbelastning_av_ROT_och_underhålls-_projekt_(ton_CO2e/BTA)",
+      "array": "v0577",
+      "length": 1
+    },
+    {
+      "key": "ROT.CO2e_utsläpp_ROT-projekt_av_befintligt_bestånd",
+      "array": "v0578",
+      "length": 1
+    },
+    {
+      "key": "ROT.Årlig_andel_av_beståndet_behov_av_omfattande_ROT-årgärder_(0-1)",
+      "array": "v0579",
+      "length": 1
+    },
+    {
+      "key": "ROT.Årlig_andel_av_beståndet_behov_av_mindre_ROT-åtgärder_och_underhåll_(0-1)",
+      "array": "v0580",
+      "length": 1
+    },
+    {
+      "key": "ROT.Klimatbelastning_av_omfattande_ROT-åtgärder_(ton_CO2e/m2_BTA)",
+      "array": "v0581",
+      "length": 1
+    },
+    {
+      "key": "ROT.Klimatbelastning_av_mindre_ROT-åtgärder_(ton_CO2e/m2_BTA)",
+      "array": "v0582",
+      "length": 1
+    },
+    {
+      "key": "ROT.Befintligt_fastighetsyta_i_stadsdel_(m2_BTA)",
+      "array": "v0583",
+      "length": 1
+    },
+    {
+      "key": "ROT.Bostadsyta_per_invånare_i_befintliga_bostäder_(n)",
+      "array": "v0584",
+      "length": 1
+    },
+    {
+      "key": "ROT.Antal_personer_i_befintliga_bostäder",
+      "array": "v0585",
+      "length": 1
+    },
+    {
+      "key": "Småhus.Nyproduktion_Småhus_(m2_BTA)",
+      "array": "v0586",
+      "length": 1
+    },
+    {
+      "key": "Småhus.Ackumulerad_nyproduktion_Småhus_(m2_BTA)",
+      "array": "v0587",
+      "length": 9491
+    },
+    {
+      "key": "Småhus.Nyproducerade_flerbostadshus_(m2_BTA/år)",
+      "array": "v0588",
+      "length": 1
+    },
+    {
+      "key": "Småhus.Ackmulerad_CO2e-emissioner_Småhus_(ton_CO2e)",
+      "array": "v0589",
+      "length": 9491
+    },
+    {
+      "key": "Småhus.Flöde_2",
+      "array": "v0590",
+      "length": 9491
+    },
+    {
+      "key": "Småhus.Klimatpåverkan_(2022,_medelvärde)_A1-A5_Småhus_(ton_CO2e/m2_BTA)",
+      "array": "v0591",
+      "length": 1
+    },
+    {
+      "key": "Småhus.Ackmulerad_CO2e-emissioner_(2022,_klimatförbättrad)_Småhus_(ton_CO2e)",
+      "array": "v0592",
+      "length": 9491
+    },
+    {
+      "key": "Småhus.Flöde_3",
+      "array": "v0593",
+      "length": 9491
+    },
+    {
+      "key": "Småhus.Klimatpåverkan_(2022,_klimatförbättrad)_A1-A5_Småhus_(ton_CO2e/m2_Atemp)",
+      "array": "v0594",
+      "length": 1
+    },
+    {
+      "key": "Småhus.CO2e_emissions_besparingar_Småhus_(ton_CO2e)",
+      "array": "v0595",
+      "length": 9491
+    },
+    {
+      "key": "Småhus.Andel_klimatförbättrade_av_Småhus_Flerbostadshus_(0-1)",
+      "array": "v0596",
+      "length": 1
+    },
+    {
+      "key": "Småhus.Ackumulerade_CO2e_emissioner_Flerbostadshus_(ton_CO2e)",
+      "array": "v0597",
+      "length": 9491
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Klimatutsläpp_(fjv)_byggnader_äldre_än_1980_(tonCO2e/m2)",
+      "array": "v0598",
+      "length": 9491
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Klimatutsläpp_(fjv)_byggnader_yngre_än_1980_(tonCO2e/m2)",
+      "array": "v0599",
+      "length": 9491
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Minskning_av_klimatutsläpp_byggnader_äldre_än_1980_efter_energirenovering_(tonCO2e/m2)",
+      "array": "v0600",
+      "length": 9491
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Minskning_av_klimatutsläpp_byggnader_yngre_än_1980_efter_energirenovering_(ton_CO2e/m2)",
+      "array": "v0601",
+      "length": 9491
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Andel_befintliga_bostäder_med_fjv_(0-1)",
+      "array": "v0602",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Klimatutsläpp_(el)_byggnader_äldre_än_1980_(tonCO2e/m2)",
+      "array": "v0603",
+      "length": 9491
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Klimatutsläpp_(el)_byggnader_yngre_än_1980_(tonCO2e/m2)",
+      "array": "v0604",
+      "length": 9491
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Energibehov_(fjv)_byggnader_äldre_än_1980_(kWh/m2)",
+      "array": "v0605",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Energibehov_(el)_byggnader_äldre_än_1980_(kWh/m2)",
+      "array": "v0606",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Energibehov_(fjv)_byggnader_yngre_än_1980_(kWh/m2)",
+      "array": "v0607",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Energibehov_(el)_byggnader_yngre_än_1980_(kWh/m2)",
+      "array": "v0608",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Ack._minskade_utsläpp_av_befintliga_byggnader_från_energirenovering_(tonCO2)",
+      "array": "v0609",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Årliga_minskade_utsläpp_från_energirenoveringar_av_befintliga_byggnader_(tonCO2/år)",
+      "array": "v0610",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Årlig_andel_av_befintligt_bestånd_som_energirenoveras_(0-0,1)",
+      "array": "v0611",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Minskning_av_energibehovet_vid_energirenoveringar_av_byggnader_äldre_än_1980_(%)",
+      "array": "v0612",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Minskning_av_energibehovet_vid_energirenoveringar_av_byggnader_yngre_än_1980_(%)",
+      "array": "v0613",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Ack._energiutsläpp_av_befintliga_byggnader_(tonCO2e)",
+      "array": "v0614",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Klimatutsläpp_från_energianvändning_av_befintliga_byggnader",
+      "array": "v0615",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Andel_av_befintliga_bostäder_äldre_än_1980_(0-1)",
+      "array": "v0616",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Andel_av_befintliga_bostäder_äldre_än_1980_(%)",
+      "array": "v0617",
+      "length": 1
+    },
+    {
+      "key": "Energi_befintliga_byggnader.Klimatutsläpp_av_energi_från_befintlig_bebyggelse_(tonCO2e)",
+      "array": "v0618",
+      "length": 1
+    },
+    {
+      "key": "Fastighetsel.Klimatutsläpp_\"Fastighetsel\"_Flerbostadshus_(ton_CO2e)",
+      "array": "v0619",
+      "length": 9491
+    },
+    {
+      "key": "Hushållsel.Klimatutsläpp_\"Hushållsel\"_Flerbostadshus_(ton_CO2e/år)",
+      "array": "v0620",
+      "length": 9491
+    },
+    {
+      "key": "Hushållsel.Klimatutsläpp_\"Hushållsel\"_Flerbostadshus_(ton_CO2e)",
+      "array": "v0621",
+      "length": 9491
+    },
+    {
+      "key": "Hushållsel.Hushållsel_\"Flerbostadshus\"_(kWh/BTA_m2)",
+      "array": "v0622",
+      "length": 1
+    },
+    {
+      "key": "Hushållsel.På/Av_Hushållsel",
+      "array": "v0623",
+      "length": 1
+    },
+    {
+      "key": "Hushållsel.Hushållsel_Flerbostadshus_(kWh/m2_BTA)",
+      "array": "v0624",
+      "length": 1
+    },
+    {
+      "key": "Hushållsel.Converter_1",
+      "array": "v0625",
+      "length": 9491
+    },
+    {
+      "key": "Klimatutsläpp_el_(ton_CO2e).Klimatutsläpp_från_elanvändning_(ton_CO2e)",
+      "array": "v0626",
+      "length": 9491
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Konsumtionskompassen",
+      "array": "v0627",
+      "length": 1
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Kläder_och_skor",
+      "array": "v0628",
+      "length": 1
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Kultur,_sport_och_fritid",
+      "array": "v0629",
+      "length": 1
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Annat",
+      "array": "v0630",
+      "length": 1
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Offentliga_sektorn",
+      "array": "v0631",
+      "length": 1
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Investering",
+      "array": "v0632",
+      "length": 1
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Ack._offentliga_klimatutsläpp_(ton_CO2)",
+      "array": "v0633",
+      "length": 9491
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.Offentliga_klimatutsläpp_(ton_CO2/år)",
+      "array": "v0634",
+      "length": 9491
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.SEI_Konsumtion_(ton_CO2e)",
+      "array": "v0635",
+      "length": 9491
+    },
+    {
+      "key": "SEI_Konsumtionskompassen.SEI_Konsumtion",
+      "array": "v0636",
+      "length": 9491
+    },
+    {
+      "key": "Scarborough_modell.Andel_veganer_(%)",
+      "array": "v0637",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Andel_vegetarians_(%)",
+      "array": "v0638",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Andel_fisk_ätare_(%)",
+      "array": "v0639",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Andel_mindre_konsumerande_köttätare_(%)",
+      "array": "v0640",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Andel_medelkonsumerande_köttätare_(%)",
+      "array": "v0641",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Andel_högkonsumerande_köttätare_(%)",
+      "array": "v0642",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatbelastning_mat_för_veganer_(ton_CO2e,_GWP100/år)",
+      "array": "v0643",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatbelastning_mat_för_vegetarianer_(ton_CO2e,_GWP100/år)",
+      "array": "v0644",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatbelastning_mat_för_fisk_ätare_(ton_CO2e,_GWP100/år)",
+      "array": "v0645",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatbelastning_mat_för_m._konsumerande_köttätare_(ton_CO2e,_GWP100/år)",
+      "array": "v0646",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatbelastning_mat_medel_konsumerande_köttätare_(ton_CO2e,_GWP100/år)",
+      "array": "v0647",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatbelastning_mat_hög_konsumerande_köttätare_(ton_CO2e,_GWP100/år)",
+      "array": "v0648",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatbelastning,_genomsnittlig_(ton_CO2e,_GWP100/år)",
+      "array": "v0649",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Totalt",
+      "array": "v0650",
+      "length": 1
+    },
+    {
+      "key": "Scarborough_modell.Klimatutsläpp_Mat_totalt_(ton_CO2e,_GWP100)",
+      "array": "v0651",
+      "length": 9491
+    },
+    {
+      "key": "Scarborough_modell.Klimatutsläpp_Mat_totalt_(ton_CO2e,_GWP100/år)",
+      "array": "v0652",
+      "length": 9491
+    },
+    {
+      "key": "Scarborough_modell.Minskning_av_klimatbelastning_för_mat_(0-1)",
+      "array": "v0653",
+      "length": 9491
+    },
+    {
+      "key": "1.viktningsfaktor_a",
+      "array": "v0654",
+      "length": 1
+    },
+    {
+      "key": "1.viktningsfaktor_b",
+      "array": "v0655",
+      "length": 1
+    },
+    {
+      "key": "1.viktningsfaktor_d",
+      "array": "v0656",
+      "length": 1
+    },
+    {
+      "key": "1.Total_påverkan_bilinnehav",
+      "array": "v0657",
+      "length": 1
+    },
+    {
+      "key": "1.Bilinnehav_(bil/hushåll)",
+      "array": "v0658",
+      "length": 1
+    },
+    {
+      "key": "1.Converter_a",
+      "array": "v0659",
+      "length": 1
+    },
+    {
+      "key": "1.spann_a",
+      "array": "v0660",
+      "length": 1
+    },
+    {
+      "key": "1.a",
+      "array": "v0661",
+      "length": 1
+    },
+    {
+      "key": "1.Converter_b",
+      "array": "v0662",
+      "length": 1
+    },
+    {
+      "key": "1.spann_b",
+      "array": "v0663",
+      "length": 1
+    },
+    {
+      "key": "1.b",
+      "array": "v0664",
+      "length": 1
+    },
+    {
+      "key": "1.Converter_d",
+      "array": "v0665",
+      "length": 1
+    },
+    {
+      "key": "1.spann_d",
+      "array": "v0666",
+      "length": 1
+    },
+    {
+      "key": "1.d",
+      "array": "v0667",
+      "length": 1
+    },
+    {
+      "key": "1.viktningsfaktor_c",
+      "array": "v0668",
+      "length": 1
+    },
+    {
+      "key": "1.Converter_c",
+      "array": "v0669",
+      "length": 1
+    },
+    {
+      "key": "1.spann_c",
+      "array": "v0670",
+      "length": 1
+    },
+    {
+      "key": "1.c",
+      "array": "v0671",
+      "length": 1
+    },
+    {
+      "key": "1.spann_bilinnehav",
+      "array": "v0672",
+      "length": 1
+    },
+    {
+      "key": "1.Summa_viktningsfaktorer_(=1)",
+      "array": "v0673",
+      "length": 1
+    },
+    {
+      "key": "Module_1.MODUL_1",
+      "array": "v0674",
+      "length": 9491
+    },
+    {
+      "key": "Module_2.MODUL_2",
+      "array": "v0675",
+      "length": 9491
+    },
+    {
+      "key": "Module_3.MODUL_3",
+      "array": "v0676",
+      "length": 9491
+    },
+    {
+      "key": "Module_4.Klimatbudget",
+      "array": "v0677",
+      "length": 9491
+    },
+    {
+      "key": "TOTAL.TOTAL",
+      "array": "v0678",
+      "length": 9491
+    },
+    {
+      "key": "TOTAL.TOTAL_inkl._offentliga_utsläpp_(ton_CO2e)",
+      "array": "v0679",
+      "length": 9491
+    },
+    {
+      "key": "TOTAL.Summa_klimatemissioner_i_stadsdel_exkl._personlig_klimatpool_(ton_CO2e)",
+      "array": "v0680",
+      "length": 9491
+    }
+  ]
+}
